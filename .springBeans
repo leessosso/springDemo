@@ -17,8 +17,11 @@
 		<config>src/main/resources/baseBall2.xml</config>
 		<config>src/main/resources/baseBall3.xml</config>
 		<config>src/main/resources/Person_1.xml</config>
+		<config>src/main/resources/lifeBean.xml</config>
 	</configs>
 	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
+		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
