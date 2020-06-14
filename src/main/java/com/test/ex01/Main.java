@@ -1,4 +1,4 @@
-package com.test.ex;
+package com.test.ex01;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
