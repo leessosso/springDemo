@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="player3" class="com.test.diEx06.Player">
+		<constructor-arg value="나성범"></constructor-arg>
+		<constructor-arg value="31"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<value>3번</value>
+				<value>외야수</value>
+			</list>
+		</constructor-arg>
+
+		<property name="height">
+			<value>180</value>
+		</property>
+
+		<property name="weight" value="90" />
+	</bean>
+
+	<bean id="baseBallTeam" class="com.test.diEx06.BaseBallTeam"
+		c:manager="김응용" c:battingCoach="이순철" c:pitchingCoach="선동열"
+		p:hitter="나성범" p:pitcher="류현진">
+		<!-- <property />써도됨 -->
+	</bean>
+
+	<!-- <bean id="playerInfo3" class="com.test.diEx06.PlayerInfo"> <property 
+		name="player" ref="player3" /> </bean> -->
+
+
+</beans>
