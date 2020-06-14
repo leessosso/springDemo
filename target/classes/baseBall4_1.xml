@@ -5,22 +5,16 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-
 	<context:annotation-config />
 	
-	<bean class="com.test.diEx08.ConfigApp"></bean>
-	
-	<bean id="player2" class="com.test.diEx09.Player">
+	<bean id="player1" class="com.test.ex.Player">
 		<constructor-arg value="강정호" />
 		<constructor-arg value="28" />
-		<constructor-arg>
-			<list>
-				<value>3번타자</value>
-				<value>유격수</value>
-			</list>
-		</constructor-arg>
-		<property name="height" value="177"></property>
-		<property name="weight" value="78"></property>
+	</bean>
+
+	<bean id="player2" class="com.test.ex.Player2">
+		<constructor-arg value="이승엽" />
+		<constructor-arg value="42" />
 	</bean>
 
 
