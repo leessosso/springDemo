@@ -18,6 +18,8 @@
 		<config>src/main/resources/baseBall3.xml</config>
 		<config>src/main/resources/Person_1.xml</config>
 		<config>src/main/resources/lifeBean.xml</config>
+		<config>src/main/resources/env.xml</config>
+		<config>src/main/resources/ext.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
