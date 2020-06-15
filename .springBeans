@@ -20,6 +20,8 @@
 		<config>src/main/resources/lifeBean.xml</config>
 		<config>src/main/resources/env.xml</config>
 		<config>src/main/resources/ext.xml</config>
+		<config>src/main/resources/dev.xml</config>
+		<config>src/main/resources/service.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
