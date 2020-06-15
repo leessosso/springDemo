@@ -10,8 +10,8 @@ public class SvcConfig {
 	@Bean
 	public profileEx profileEx() {
 		profileEx prof = new profileEx();
-		prof.setIp("321.156.452.11");
-		prof.setPort("80");
+		prof.setIp("321.156.452.15");
+		prof.setPort("82");
 		
 		return prof;
 	}
